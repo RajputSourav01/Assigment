@@ -39,7 +39,7 @@ export async function POST(req: Request) {
       );
     }
 
-    // 4️⃣ Check deliverability — main fields from MailboxLayer
+    //  Check deliverability — main fields from MailboxLayer
     const isDeliverable =
       data.format_valid === true &&
       data.mx_found === true &&

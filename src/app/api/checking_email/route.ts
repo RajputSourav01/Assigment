@@ -49,7 +49,7 @@ export async function POST(req: Request) {
       return NextResponse.json(
         {
           storekeyvaluepair: true,
-          message: "✅ Email exists and is deliverable. You can proceed.",
+          message: " Email exists and is deliverable. You can proceed.",
         },
         { status: 200 }
       );

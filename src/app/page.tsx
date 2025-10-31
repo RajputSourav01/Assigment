@@ -31,10 +31,10 @@ export default function HomePage() {
     // if email is registred setallowed to true and ternary operator will render rest part of form
     if (data.storekeyvaluepair) {
       setAllowed(true);
-      setMessage("User verified. You can proceed.");
+      setMessage("Email verified. You can proceed.");
     } else {
       setAllowed(false);
-      setMessage("User not found. Please enter registered email only.");
+      setMessage("this email doesn't exist. Please enter valid email I'd.");
     }
   };
 
